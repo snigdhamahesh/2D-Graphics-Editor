@@ -98,7 +98,8 @@ int main()
         printf("2. Draw Rectangle\n");
         printf("3. Draw Line\n");
         printf("4. Draw Circle\n");
-        printf("5. Exit\n");
+        printf("5. Draw  Triangle\n");
+        printf("6. Exit\n");
 
         printf("Enter your choice: ");
         scanf("%d", &choice);
