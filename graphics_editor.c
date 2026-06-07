@@ -60,6 +60,14 @@ void drawLine(int row1, int col1, int row2, int col2)
         }
     }
 }
+void drawCircle(int row, int col)
+{
+    canvas[row-1][col] = '*';
+    canvas[row+1][col] = '*';
+    canvas[row][col-1] = '*';
+    canvas[row][col+1] = '*';
+    canvas[row][col] = '*';
+}
 int main()
 {
     int choice;
@@ -73,7 +81,8 @@ int main()
         printf("1. Display Canvas\n");
         printf("2. Draw Rectangle\n");
         printf("3. Draw Line\n");
-        printf("4. Exit\n");
+        printf("4. Draw Circle\n");
+        printf("5. Exit\n");
 
         printf("Enter your choice: ");
         scanf("%d", &choice);
