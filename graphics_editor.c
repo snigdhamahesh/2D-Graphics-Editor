@@ -80,6 +80,10 @@ void drawTriangle(int row, int col)
     canvas[row+2][col+1] = '*';
     canvas[row+2][col+2] = '*';
 }
+void clearCanvas()
+{
+    initCanvas();
+}
 int main()
 {
     int choice;
