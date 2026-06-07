@@ -68,6 +68,18 @@ void drawCircle(int row, int col)
     canvas[row][col+1] = '*';
     canvas[row][col] = '*';
 }
+void drawTriangle(int row, int col)
+{
+    canvas[row][col] = '*';
+    canvas[row+1][col-1] = '*';
+    canvas[row+1][col+1] = '*';
+
+    canvas[row+2][col-2] = '*';
+    canvas[row+2][col-1] = '*';
+    canvas[row+2][col] = '*';
+    canvas[row+2][col+1] = '*';
+    canvas[row+2][col+2] = '*';
+}
 int main()
 {
     int choice;
