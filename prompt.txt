@@ -1,0 +1,84 @@
+PROMPT 1:
+Create a simple 2D Graphics Editor mini project in C.
+
+RESPONSE:
+Generated a basic ASCII Graphics Editor project using C with separate files:
+- graphics.h
+- graphics.c
+- main.c
+Features included:
+- Canvas initialization
+- Display canvas
+- Menu driven interface
+
+==================================================
+
+PROMPT 2:
+Generate graphics.h file for the project.
+
+RESPONSE:
+Created graphics.h containing:
+- Header guards
+- Canvas size definitions
+- Function declarations
+- External canvas declaration
+
+==================================================
+
+PROMPT 3:
+Generate graphics.c file for the project.
+
+RESPONSE:
+Created graphics.c containing:
+- Canvas array
+- initializeCanvas() function
+- displayCanvas() function
+
+==================================================
+
+PROMPT 4:
+Generate main.c file for the project.
+
+RESPONSE:
+Created main.c containing:
+- Menu driven program
+- User choice handling
+- Display canvas option
+- Exit option
+
+==================================================
+
+PROMPT 5:
+Explain how to create a GitHub repository and upload the project.
+
+RESPONSE:
+Provided step-by-step instructions to:
+- Create GitHub repository
+- Initialize Git
+- Add project files
+- Commit changes
+- Push to GitHub
+
+==================================================
+
+PROMPT 6:
+How do I connect VS Code to my GitHub repository?
+
+RESPONSE:
+Provided instructions for:
+- Checking GitHub account
+- Configuring Git username
+- Verifying remote repository
+- Pushing files to GitHub
+
+==================================================
+
+PROMPT 7:
+How do I create and upload prompt.txt?
+
+RESPONSE:
+Provided instructions to:
+- Create prompt.txt
+- Copy prompts and responses
+- Save the file
+- Upload it to the same GitHub repository as the project
